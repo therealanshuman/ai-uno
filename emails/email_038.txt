@@ -1,6 +1,5 @@
 Subject: Client Feedback
 
-From: Mia Harris <mia.harris@corp.org>
 To: Sean Cox <sean.cox@enterprise.com>
 
 Hello Sean,

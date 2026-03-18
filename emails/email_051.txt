@@ -1,7 +1,7 @@
 Subject: Performance Review
 
-From: Alice Lopez <alice.lopez@business.net>
 To: Blake Simmons <blake.simmons@business.net>
+From: Alice Lopez <alice.lopez@business.net>
 
 Hi Blake,
 
