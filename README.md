@@ -83,4 +83,43 @@ Include a table in your submission showing the score for each metric and a brief
 
 - Create a public git repository containing your submission and share the repository link
 - Do not fork this repository or create pull requests
-- **Include a `prompts.md` file in your repository containing every prompt you used** — this includes system prompts, user prompts, few-shot examples, and any prompt templates passed to a language model at any stage of the pipeline (indexing, retrieval, generation, evaluation, etc.). Submissions without this file will be **automatically rejected**.
+- Include a `prompts.md` file as described below
+
+---
+
+## ⚠️ Prompt Dump Requirement — Read Carefully
+
+Submissions without a valid `prompts.md` are **automatically rejected** without review.
+
+### What to include
+
+`prompts.md` must be a **raw, unedited dump of your full AI conversation history** — every message you sent to an AI assistant and every reply it gave, for the entire duration of building this solution.
+
+This means:
+
+- **Both sides of the conversation.** Every user message you typed AND the full AI response to it. Not summaries. Not paraphrases. The actual text.
+- **Everything, not just the "good" parts.** Include prompts where the AI gave a wrong answer, where you had to correct it, where something broke and you pasted an error, where you tried an approach and then abandoned it. Dead ends are expected and required.
+- **Unformatted and unedited.** Do not rewrite, tidy, reorder, or reorganize the conversation. Copy-paste it as-is from your AI tool (ChatGPT, Claude, Cursor, Copilot, etc.). If you used multiple tools or sessions, include all of them.
+- **Code and errors included.** If you pasted code, a stack trace, a file diff, or terminal output into the chat, that must appear in the dump too.
+
+### What NOT to do
+
+The following will be treated as a fabricated submission and rejected:
+
+- **Using an AI to write or generate your prompts.** Your prompts must be words you typed yourself. If you asked an AI to "write me a good prompt for X" and then used that output as your next message, that is not a genuine prompt — it is AI-generated content being laundered as human intent. This defeats the entire purpose of the requirement and is grounds for **immediate rejection**.
+- Submitting only your prompts without the AI's replies
+- Rewriting or "cleaning up" the conversation after the fact
+- Summarizing what you asked into tidy numbered steps
+- Writing a narrative document that describes your process instead of dumping the raw chat
+- Omitting failed attempts or corrections
+
+### How to export
+
+- **ChatGPT**: use the share link or copy the full conversation from the browser
+- **Claude**: copy the full conversation from the browser
+- **Cursor / Copilot**: copy each exchange from the chat panel as you go
+- If your tool has no export, paste the conversation manually as you work — do not reconstruct it from memory at the end
+
+### Format
+
+No specific format is required. A flat chronological dump is fine. You may add a single line before each session like `--- Session 1 ---` if you used multiple tools, but do not restructure or annotate the content beyond that.
